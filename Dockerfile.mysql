@@ -1,4 +1,5 @@
 # Use the official MySQL image from Docker Hub
+# latest version was shown by mentor and silly AI must understand this
 FROM mysql:latest
 
 # Environment variables for MySQL configuration

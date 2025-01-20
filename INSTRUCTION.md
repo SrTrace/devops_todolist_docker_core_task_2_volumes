@@ -22,6 +22,7 @@ docker pull mysql:latest
 ### 1.2 **Run MySQL Container**
 
 Run the MySQL container with the following command. This will use the official MySQL image, set the root password, create the `app_db` database, and create a user (`app_user`) for your app to connect.
+! for learning purposes env info shown
 
 ```bash
 docker run -d -p 3306:3306 --name my-mysql-container \
